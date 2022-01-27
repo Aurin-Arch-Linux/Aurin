@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=$HOME/.aurin/runner %u
+Icon=$HOME/.aurin/aurin.png
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+MimeType=x-scheme-handler/aurin
+Name=Aurin
+Comment=Aurin,AUR Installer.
