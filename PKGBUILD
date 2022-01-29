@@ -19,5 +19,6 @@ package() {
     install -D "$srcdir/Aurin/data/aurin48.png" "$pkgdir/$HOME/.aurin/aurin48.png"
     install -D -m755 "$srcdir/Aurin/data/installpkg.sh" "$pkgdir/$HOME/.aurin/installpkg.sh"
     install -D -m755 "$srcdir/Aurin/data/passprompt.py" "$pkgdir/$HOME/.aurin/passprompt.py"
+    install -D -m755 "$srcdir/Aurin/data/install.py" "$pkgdir/$HOME/.aurin/install.py"
     install -D -m755 "$srcdir/Aurin/data/aurin" "$pkgdir/usr/bin/aurin"
 }
