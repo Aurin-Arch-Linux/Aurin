@@ -15,9 +15,9 @@ package() {
     install -D -m755 "$srcdir/Aurin/data/aurin.desktop" "$pkgdir/usr/share/applications/aurin.desktop"
     xdg-mime default aurin.desktop x-scheme-handler/aurin
     install -D -m755 "$srcdir/Aurin/data/askpass.sh" "$pkgdir/$HOME/.aurin/askpass.sh"
-    install -D -m755 "$srcdir/Aurin/data/aurin.png" "$pkgdir/$HOME/.aurin/aurin.png"
-    install -D -m755 "$srcdir/Aurin/data/aurin48.png" "$pkgdir/$HOME/.aurin/aurin48.png"
+    install -D "$srcdir/Aurin/data/aurin.png" "$pkgdir/usr/share/icons/default/aurin.png"
+    install -D "$srcdir/Aurin/data/aurin48.png" "$pkgdir/$HOME/.aurin/aurin48.png"
     install -D -m755 "$srcdir/Aurin/data/installpkg.sh" "$pkgdir/$HOME/.aurin/installpkg.sh"
     install -D -m755 "$srcdir/Aurin/data/passprompt.py" "$pkgdir/$HOME/.aurin/passprompt.py"
-    install -D -m755 "$srcdir/Aurin/data/runner.sh" "$pkgdir/$HOME/.aurin/runner.sh"
+    install -D -m755 "$srcdir/Aurin/data/aurin" "$pkgdir/usr/bin/aurin"
 }
