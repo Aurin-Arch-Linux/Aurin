@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Exec=aurin %u
-Icon=aurin.png
+Icon=usr/share/icons/default/aurin.png
 StartupNotify=true
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
