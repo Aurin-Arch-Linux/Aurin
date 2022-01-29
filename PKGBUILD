@@ -14,11 +14,11 @@ package() {
     mkdir -p $pkgdir/$HOME/.aurin/
     install -D -m755 "$srcdir/Aurin/data/aurin.desktop" "$pkgdir/usr/share/applications/aurin.desktop"
     xdg-mime default aurin.desktop x-scheme-handler/aurin
-    cp "$srcdir/Aurin/data/askpass.sh" "$HOME/.aurin/askpass.sh"
+    install -D -m755 "$srcdir/Aurin/data/askpass.sh" "$pkgdir/$HOME/.aurin/askpass.sh"
     install -D "$srcdir/Aurin/data/aurin.png" "$pkgdir/usr/share/icons/default/aurin.png"
-    cp "$srcdir/Aurin/data/aurin48.png" "$HOME/.aurin/aurin48.png"
-    cp "$srcdir/Aurin/data/installpkg.sh" "$HOME/.aurin/installpkg.sh"
-    cp "$srcdir/Aurin/data/passprompt.py" "$HOME/.aurin/passprompt.py"
-    cp "$srcdir/Aurin/data/install.py" "$HOME/.aurin/install.py"
+    install -D "$srcdir/Aurin/data/aurin48.png" "$pkgdir/$HOME/.aurin/aurin48.png"
+    install -D -m755 "$srcdir/Aurin/data/installpkg.sh" "$pkgdir/$HOME/.aurin/installpkg.sh"
+    install -D -m755 "$srcdir/Aurin/data/passprompt.py" "$pkgdir/$HOME/.aurin/passprompt.py"
+    install -D -m755 "$srcdir/Aurin/data/install.py" "$pkgdir/$HOME/.aurin/install.py"
     install -D -m755 "$srcdir/Aurin/data/aurin" "$pkgdir/usr/bin/aurin"
 }
