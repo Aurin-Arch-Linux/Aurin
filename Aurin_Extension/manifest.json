@@ -10,7 +10,6 @@
     "128": "icons/aurin128.png"
   },
   "default_locale": "en",
-  "options_page": "src/options_custom/index.html",
   "permissions": [
     "https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD*"
   ],

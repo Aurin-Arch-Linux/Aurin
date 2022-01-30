@@ -2,7 +2,7 @@ let targetTag = document.querySelector('.blob');
 let pkg = document.querySelector("td.main").textContent.match(/(?<=AUR : )(.*)(?=.git)/g);
 targetTag.insertAdjacentHTML('beforebegin', '<a href="aurin://' + pkg + ' "><button id="aurin_button" class="aurin_install_button">Install Now</button></a>');
 
-function removeClass(){  
+function removeClass(){
     myButton.className = myButton.className.replace(new RegExp('(?:^|\\s)loading(?!\\S)'), '');
 }
 
@@ -13,7 +13,7 @@ myButton.addEventListener("click", function loader() {
     myButton.className = myButton.className + ' loading';
 }, false);
 
-var intervalId = window.setInterval(function(){
+/*var intervalId = window.setInterval(function(){
     watchUrl(url, "loader", "removeClass")
 }, 1000);
 
@@ -26,4 +26,4 @@ function watchUrl('http://127.0.0.1:8000/aurin.lock', actionOn200, actionOn400) 
       clearInterval(intervalId);
     }
   });
-}
+}*/
