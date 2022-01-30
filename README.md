@@ -43,7 +43,7 @@ It comes with a simple application that you have to install to on your system al
 
 It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the button to install any package in a click. It throws desktop notification when the ackage has installed and deleted the intermediary files.
 <p align="center">
-![Aurin Code](https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-in-action.png)
+<img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-in-action.png"
 </p>
 <p align="right">
 <sub>(Preview)</sub>
