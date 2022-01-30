@@ -3,7 +3,7 @@
   <a href="https://github.com/Suleman-Elahi/Aurin"><img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin.png" alt=" Aurin"></a>
 </h1>
 
-<h4 align="center">A quick AUR installer for Arch Linux. Install packages from AUR website in a click </h4>
+<h4 align="center">A quick AUR installer for Arch Linux. Install packages from AUR website in a click. </h4>
 
 <p align="center">
     <a href="https://github.com/Suleman-Elahi/Aurin/commits">
@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/twitter/url/https/github.com/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=twitter"
          alt="GitHub tweet">
 </p>
-      
+
 <p align="center">
   <a href="#about">About</a> •
   <a href="#installation">Installation</a> •
@@ -36,14 +36,15 @@
 <table>
 <tr>
 <td>
-  
+
 **Aurin** is a **non conventional** AUR packages installer that aims to **install AUR packages** in one click right from the AUR website. From package page, you can install it in a click just like you install browser addons.
 
 It comes with a simple application that you have to install to on your system alogn woth helper Chrome/Frefox exensions.
 
 It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the button to install any package in a click. It throws desktop notification when the ackage has installed and deleted the intermediary files.
-
+<center>
 ![Aurin Code](https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-in-action.png)
+</center>
 <p align="right">
 <sub>(Preview)</sub>
 </p>
@@ -58,8 +59,8 @@ It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the
 * Open Terminal and type: `git clone https://github.com/Suleman-Elahi/Aurin/ && cd Aurin`
 * Run `makepkg -si`
 * Install the Chrome/Firefox helper extension for Aurin either from [here](https://github.com/Suleman-Elahi/Aurin/tree/main/Aurin_Extension) or from below.
-      * Microsoft Edge: soon
-      * Firefox: soon
+  * **Microsoft Edge**: soon
+  * **Firefox**: soon
 * Done
 * Open any AUR package page, for example [hello](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=hello). Click on "View PKGBUILD" link and you will find the "Install" button.
 
