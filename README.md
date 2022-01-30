@@ -39,7 +39,7 @@
 
 **Aurin** is a **non conventional** AUR packages installer that aims to **install AUR packages** in one click right from the AUR website. From package page, you can install it in a click just like you install browser extensions.
 
-It comes with a simple background application that you have to install on your system alogn with helper Chrome/Firefox/Microsoft Edge exensions.
+It comes with a simple background application that you have to install on your system along with helper Chrome/Firefox/Microsoft Edge exensions.
 
 It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the button to install any package quickly. It throws desktop notification when the package has installed successfully and deletes the intermediary files.
 <p align="center">
@@ -62,7 +62,7 @@ It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the
   * **Microsoft Edge**: soon
   * **Firefox**: soon
 * Done
-* Open any AUR package page, for example [hello](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=hello). Click on "View PKGBUILD" link and you will find the "Install" button.
+* Open any AUR package page, for example [hello](https://aur.archlinux.org/packages/hello). Click on "View PKGBUILD" link from the right side of the page and you will find the "Install" button.
 
 ## Features
 
