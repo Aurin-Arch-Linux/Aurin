@@ -1,4 +1,4 @@
-export SUDO_ASKPASS=${HOME}/.aurin/askpass.sh
+export SUDO_ASKPASS=/opt/aurin/askpass.sh
 cd $1
 makepkg -si --noconfirm
 rm -rf "$1"

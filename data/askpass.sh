@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 $HOME/.aurin/passprompt.py
+python3 /opt/aurin/passprompt.py
