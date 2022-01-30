@@ -11,14 +11,13 @@ source=("git://github.com/suleman-elahi/${pkgname}/")
 sha1sums=('SKIP')
 
 package() {
-    mkdir -p $pkgdir/$HOME/.aurin/
     install -D -m755 "$srcdir/Aurin/data/aurin.desktop" "$pkgdir/usr/share/applications/aurin.desktop"
     xdg-mime default aurin.desktop x-scheme-handler/aurin
-    install -D -m755 "$srcdir/Aurin/data/askpass.sh" "$pkgdir/$HOME/.aurin/askpass.sh"
+    install -D -m755 "$srcdir/Aurin/data/askpass.sh" "$pkgdir/opt/aurin/askpass.sh"
     install -D "$srcdir/Aurin/data/aurin.png" "$pkgdir/usr/share/icons/default/aurin.png"
-    install -D "$srcdir/Aurin/data/aurin48.png" "$pkgdir/$HOME/.aurin/aurin48.png"
-    install -D -m755 "$srcdir/Aurin/data/installpkg.sh" "$pkgdir/$HOME/.aurin/installpkg.sh"
-    install -D -m755 "$srcdir/Aurin/data/passprompt.py" "$pkgdir/$HOME/.aurin/passprompt.py"
-    install -D -m755 "$srcdir/Aurin/data/install.py" "$pkgdir/$HOME/.aurin/install.py"
+    install -D "$srcdir/Aurin/data/aurin48.png" "$pkgdir/opt/aurin/aurin48.png"
+    install -D -m755 "$srcdir/Aurin/data/installpkg.sh" "$pkgdir//opt/aurin/installpkg.sh"
+    install -D -m755 "$srcdir/Aurin/data/passprompt.py" "$pkgdir/opt/aurin/passprompt.py"
+    install -D -m755 "$srcdir/Aurin/data/install.py" "$pkgdir/opt/aurin/install.py"
     install -D -m755 "$srcdir/Aurin/data/aurin" "$pkgdir/usr/bin/aurin"
 }
