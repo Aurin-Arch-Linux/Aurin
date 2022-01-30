@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Suleman-Elahi/Aurin"><img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin.png" alt=" Aurin"></a>
+  <a href="https://github.com/Suleman-Elahi/Aurin"><img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin.png" alt=" Aurin" width="200px"></a>
 </h1>
 
 <h4 align="center">A quick AUR installer for Arch Linux. Install packages from AUR website in a click. </h4>
@@ -72,7 +72,7 @@ It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the
 | Browse package             |        ❌         |
 | Lock system                |        ❌         |
 | Loading indicator          |        ❌         |
-| Ask sudo password voa GUI  |         ✔️         |
+| Ask sudo password via GUI  |         ✔️         |
 | Delete files after install |         ✔️         |
 | Handle URLs                |         ✔️         |
 
