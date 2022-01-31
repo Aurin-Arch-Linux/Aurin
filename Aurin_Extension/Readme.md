@@ -1,4 +1,4 @@
-Installation of browser Aurin extension. Right now it is pending for review on Mozilla and Microsoft Edge Dev. So, for now, you have to install it manually.
+Installation of browser Aurin extension. Right now it is pending for review on Microsoft Edge Dev Store. So, for now, you have to install it manually.
 
 ## Chrome:
 
@@ -8,6 +8,10 @@ Installation of browser Aurin extension. Right now it is pending for review on M
 * Select the directory containing your unpacked extension(manifest.json).
 
 ## Firefox:
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/aurin/"><img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/Aurin_Extension/icons/get-the-addon.png"></a>
+
+### Manual Install:
 
 * open Firefox
 * enter "about:debugging" in the URL bar
