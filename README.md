@@ -43,7 +43,9 @@ It comes with a simple background application that you have to install on your s
 
 It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the button to install any package quickly. It throws desktop notification when the package has installed successfully and deletes the intermediary files.
 <p align="center">
-<img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-in-action.png"
+<img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-in-action.png">
+<img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-installed.png">
+<img src="https://raw.githubusercontent.com/Suleman-Elahi/Aurin/main/data/aurin-sudo.png">  
 </p>
 <p align="right">
 <sub>(Preview)</sub>
