@@ -60,7 +60,7 @@ It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the
 * Run `makepkg -si`
 * Install the Chrome/Firefox helper extension for Aurin either from [here](https://github.com/Suleman-Elahi/Aurin/tree/main/Aurin_Extension) or from below.
   * **Microsoft Edge**: soon
-  * **Firefox**: soon
+  * **Firefox**: https://addons.mozilla.org/en-US/firefox/addon/aurin/
 * Done
 * Open any AUR package page, for example [hello](https://aur.archlinux.org/packages/hello). Click on "View PKGBUILD" link from the right side of the page and you will find the "Install" button.
 
