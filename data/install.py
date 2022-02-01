@@ -1,4 +1,5 @@
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -80,5 +81,12 @@ subprocess.check_call(
     ],
     cwd=build_root
 )
+
+# Make sure we're not in the directory that's about to be removed
+os.chdir(os.environ.get("HOME", "/"))
+
+# This was originally handled in installpkg.sh with `rm -rf "$1"`.
+# Just a warning that this can be an enormous footgun
+shutil.rmtree(build_root, ignore_errors=True)
 
 notify("/opt/aurin/aurin48.png", "Install Successful", f"{pkg_name} has been installed!")
