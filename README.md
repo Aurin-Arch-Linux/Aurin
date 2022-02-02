@@ -74,7 +74,7 @@ It **Adds Install button on View PKGBUILD page** of an AUR package. Click on the
 | Ask sudo password via GUI  |         ✔️        |
 | Delete files after install |         ✔️        |
 | Handle URLs                |         ✔️        |
-| Browse package             |         ❌        |
+| AUR Updates/deps resolve   |         ❌        |
 | Lock system                |         ❌        |
 | Loading indicator          |         ❌        |
 | Submitted to AUR           |         ❌        |
