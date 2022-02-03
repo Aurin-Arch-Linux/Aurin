@@ -1,4 +1,4 @@
-Installation of browser Aurin extension. Right now it is pending for review on Microsoft Edge Dev Store. So, for now, you have to install it manually.
+Installation of browser Aurin extension. If you use Chrome, then you can simply follow the steps below(I haven't signed up for Chrome developer account yet). For Firefox and Microsoft Edge, you can just follow links attached to the respective badges.
 
 ## Chrome:
 
