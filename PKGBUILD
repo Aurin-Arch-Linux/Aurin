@@ -4,10 +4,10 @@ pkgver=0.1
 pkgrel=1
 pkgdesc="Aurin is AUR packages installer."
 arch=("any")
-url="https://github.com/suleman-elahi/Aurin"
+url="https://github.com/Suleman-Elahi/Aurin"
 license=('MIT')
 depends=('libnotify' 'tk')
-source=("git://github.com/suleman-elahi/${pkgname}/")
+source=("git+https://github.com/Suleman-Elahi/${pkgname}")
 sha1sums=('SKIP')
 
 package() {
